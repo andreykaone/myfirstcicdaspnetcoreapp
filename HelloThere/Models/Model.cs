@@ -37,7 +37,7 @@ namespace HelloThere.Models
 
         public override string ToString()
         {
-            return $@"Id:{Id}, /n" +
+            return $"Id:{Id}, \n" +
                 $"UtcOffset:{UtcOffset}, \n" +
                 $"IsDayLightSavingsTime:{IsDayLightSavingsTime}, \n" +
                 $"DayOfTheWeek:{DayOfTheWeek}, \n" +
